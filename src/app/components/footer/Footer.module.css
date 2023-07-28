@@ -1,0 +1,10 @@
+.footerContainer {
+  padding: 0 2rem 0 2rem;
+}
+
+.footerText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:  0.5rem 0 0.5rem 0;
+}

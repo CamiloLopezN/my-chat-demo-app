@@ -1,0 +1,22 @@
+.bubblesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bubbleMessageContainerUser {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: auto;
+}
+
+.bubbleMessageContainerIA {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+.bubbleMessage {
+    border-radius: 15px;
+    padding: 0.5rem;
+    background-color: #e4e3e8;
+}

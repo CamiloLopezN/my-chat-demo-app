@@ -1,0 +1,52 @@
+.chatsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 5px;
+  
+}
+
+.recentConversationsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.createNewChatButton {
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  background-color: #013777;
+  color: #fafafa;
+  padding: 0.7rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.chatButtonContainer {
+  width: 100%;
+}
+
+.findChatInput {
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.2em solid #013777;
+  background-color: #f4f4f4;
+  border-radius: 0.2em 0.2em 0 0;
+  color: #111b36;
+  width: 100%;
+  font-size: 16px;
+  padding: 0.7rem 0 0.7rem 0 !important;
+}
+
+.findChatContainer {
+  width: 100%;
+
+  padding: 0 !important;
+}

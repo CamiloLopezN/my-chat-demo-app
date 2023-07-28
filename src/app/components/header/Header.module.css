@@ -1,0 +1,57 @@
+.headerContainer,
+.navigatorContainer,
+.linksContainer,
+.logoContainer,
+.welcomeContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: center;
+  background-color: #111b36;
+  padding: 2rem;
+}
+.navigatorContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+}
+.userActionsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 0;
+}
+
+.linksContainer {
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.logoContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.welcomeContainer {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.welcomeText {
+  color: white;
+  font-weight: 200;
+}

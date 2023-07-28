@@ -1,0 +1,36 @@
+.chatContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 2em;
+  font-weight: 200;
+  flex-wrap: wrap;
+}
+
+.tittleContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.userActionsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.chatContentContainer{
+  display: flex;
+}
+.chatActionsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

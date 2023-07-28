@@ -1,0 +1,45 @@
+.alertMessageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: center;
+  padding: 0.7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1 1 0;
+  font-size: 16px;
+}
+
+.titleDateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 0;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex: 1 1 0;
+  font-size: 14px;
+}
+
+.dateText{
+  font-size: 14px;
+}
