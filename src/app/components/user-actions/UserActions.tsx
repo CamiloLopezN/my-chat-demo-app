@@ -6,13 +6,14 @@ export default function UserActions({ userActions }: UserActions) {
   return (
     <>
       {userActions.map(({ pathIcon, nameAction, onClickFunction }) => (
-        <Image
-          key={nameAction}
-          src={pathIcon}
-          alt="logo"
-          width={20}
-          height={20}
-        />
+        <a key={nameAction} onClick={onClickFunction} className={UserActionsStyles.userAction}>
+          <Image 
+            src={pathIcon}
+            alt="logo"
+            width={20}
+            height={20}
+          />
+        </a>
       ))}
     </>
   );

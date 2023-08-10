@@ -1,0 +1,7 @@
+.userAction {
+  cursor: pointer;
+}
+
+.userAction:hover{
+  transform: scale(1.15);
+}

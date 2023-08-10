@@ -44,15 +44,15 @@ export default function Home() {
         <Card cards={cards} />
       </div>
       <div className={pageStyles.homeContainer}>
-        <div className={pageStyles.chatHistoryContainer}>
+        {/* <div className={pageStyles.chatHistoryContainer}>
           <ChatHistory />
-        </div>
+        </div> */}
         <div className={pageStyles.chatContainer}>
           <Chat />
         </div>
-        <div className={pageStyles.notificationHistoryContainer}>
+        {/* <div className={pageStyles.notificationHistoryContainer}>
           <NotificationHistory />
-        </div>
+        </div> */}
       </div>
     </main>
   );

@@ -2,25 +2,23 @@
 import Link from "next/link";
 import { Routes } from "../models";
 import navigatorStyles from "./Navigator.module.css";
-import React from "react";
+import React, { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navigator({ routes }: Routes) {
-  const [isItemSelected, setIsItemSelected] = React.useState(false);
-
-  const handleClick = (isSelected: boolean, nameRoute: string) => {};
+  const pathname = usePathname();
 
   return (
     <>
-      {routes.map(({ nameRoute, pathRoute, pathIconRoute, isSelected }) => (
+      {routes.map(({ nameRoute, pathRoute, pathIconRoute }) => (
         <Link
           className={
-            isSelected
+            pathname === pathRoute
               ? navigatorStyles.navigatorSelected
               : navigatorStyles.navigator
           }
           key={pathRoute}
           href={pathRoute}
-          onClick={() => handleClick(isSelected, nameRoute)}
         >
           {nameRoute}
         </Link>
